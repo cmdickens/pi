@@ -1,0 +1,18 @@
+# ENABLE GUEST WIFI
+click Turn Off Wi-Fi
+click Turn On Wi-Fi
+select tamulink-guest
+type: tamuguest
+open web browser type URL: tamu.edu
+enter guest username and password
+    guest/6789123
+
+
+
+# IMPROVE MOUSE SPEED
+add
+usbhid.mousepoll=0
+to file
+/boot/cmdline.txt
+
+sudo wget https://hprc.tamu.edu:/pi/cmdline.txt -O /boot/cmdline.txt

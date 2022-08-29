@@ -1,2 +1,5 @@
-# pi
-pi pyhon and games
+#pi
+
+
+# to view breadboard pin layout
+sudo gpio readall
